@@ -90,7 +90,7 @@ SELECT * FROM employee1 UNION SELECT * FROM employee2; -- UNION
 SELECT DISTINCT * FROM employee1 INNER JOIN employee2 using (id); -- INTERSECTION
 SELECT id FROM employee1 LEFT JOIN employee2 USING(id) WHERE employee2.ID IS NULL; -- MINUS
 
-
+-- ROW_NUMBER() 1,2,3,4,5. RANK() 1,1,3,4,5.  DENSE_RANK() 1,1,2,3,4.
 -- VIEW (virtual table)
 SELECT * FROM student;
 

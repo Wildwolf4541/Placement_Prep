@@ -50,7 +50,7 @@
     2. Inheritance-> Properties are copied from parent class to child class.
         * class {child name}: {access modifier} {parent name}
         * Private properties or functions can't be inherited in any case.
-        * properted ones in public and protected cases are both protected.
+        * protected ones in public and protected cases are both protected.
         * Object of child class can access functions and properties of parent class as well.
         
         Types of Inheritance->
