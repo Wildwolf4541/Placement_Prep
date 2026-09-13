@@ -1,0 +1,7 @@
+string, tuples, integers, boolean, floats are immutable
+Only list, set, dictionary, array, bytearray are mutable.
+
+Everything is an object in python.
+
+python variable ka datatype ni hota, memory ko assign hota hai datatype.
+slicing makes copy of the reference.
