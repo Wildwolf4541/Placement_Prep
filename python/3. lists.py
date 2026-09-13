@@ -36,3 +36,5 @@ print(tea_varities)
 
 squared_nums= [x**2 for x in range(11)]
 print(f"\n{squared_nums}")
+
+# Nested-> [[],[],[]]
